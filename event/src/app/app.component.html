@@ -1,0 +1,18 @@
+<!-- Button Click Event -->
+<button class="btn" name="click-button" (click)="handleEvent($event)">
+  Click me
+</button>
+
+<br><br>
+
+<!-- Mouse Enter Event -->
+<div
+  (mouseenter)="handleEvent($event)"
+  style="background-color: green; width: 100px; height: 100px;">
+</div>
+
+<!-- Mouse Leave Event -->
+<div
+  (mouseleave)="handleEvent($event)"
+  style="background-color: red; width: 100px; height: 100px;">
+</div>

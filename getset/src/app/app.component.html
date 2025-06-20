@@ -1,0 +1,9 @@
+<h1>Learning Getset</h1>
+
+<h1>User name is: {{ displayName }}</h1>
+
+<input type="text" [value]="name" (input)="getName($event)" placeholder="Enter user name" />
+<br><br>
+
+<button (click)="showName()">Get Value</button>
+<button (click)="setName()">Clear</button>
